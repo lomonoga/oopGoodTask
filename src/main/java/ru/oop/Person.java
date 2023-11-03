@@ -19,4 +19,9 @@ public interface Person {
      * @param destination место назначения
      */
     void walk(Position destination);
+
+    /**
+     * Доехать до указанного места из текущего местоположения
+     */
+    void drive(Position destination);
 }
